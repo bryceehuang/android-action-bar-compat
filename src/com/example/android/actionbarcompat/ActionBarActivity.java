@@ -32,7 +32,7 @@ import android.view.MenuInflater;
  */
 public abstract class ActionBarActivity extends Activity {
     final ActionBarHelper mActionBarHelper = ActionBarHelper.createInstance(this);
-
+    
     /**
      * Returns the {@link ActionBarHelper} for this activity.
      */
